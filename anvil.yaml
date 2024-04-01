@@ -3,6 +3,7 @@ services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
+startup: null
 package_name: California_Housing_Rate_Prediction
 allow_embedding: false
 name: California Housing Rate Prediction
