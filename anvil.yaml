@@ -1,12 +1,13 @@
-allow_embedding: false
-package_name: M3_App_2
-name: M3 App 2
-startup_form: Form1
-renamed: true
-runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
-  server_spec: null}
 dependencies: []
 services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
+package_name: California_Housing_Rate_Prediction
+allow_embedding: false
+name: California Housing Rate Prediction
+runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
+  server_spec: null}
+metadata: {title: California Housing Rate Prediction, logo_img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_California.svg/1200px-Flag_of_California.svg.png'}
+startup_form: Form1
+renamed: true
