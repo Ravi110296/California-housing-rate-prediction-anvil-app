@@ -7,6 +7,89 @@ components:
   properties: {}
   name: content_panel
   layout_properties: {slot: default}
+  components:
+  - name: outlined_card_1
+    properties: {role: outlined-card, spacing_above: small, col_spacing: huge}
+    type: ColumnPanel
+    layout_properties: {grid_position: 'RXTQTQ,ODSXND', full_width_row: true}
+    components:
+    - name: label_1
+      properties: {align: right, role: input-prompt, text: Median income in block group,
+        font_size: 16}
+      type: Label
+      layout_properties: {grid_position: 'ZGSMSG,AFJDTS'}
+    - name: MedInc
+      properties: {align: center, italic: true, type: number, placeholder: MedInc}
+      type: TextBox
+      layout_properties: {grid_position: 'ZGSMSG,BHJWRG'}
+    - name: label_2
+      properties: {text: Median house age in block group, align: right, font_size: 16,
+        role: input-prompt}
+      type: Label
+      layout_properties: {grid_position: 'MIPSYL,AMOQYB'}
+    - name: HouseAge
+      properties: {italic: true, align: center, type: number, placeholder: HouseAge}
+      type: TextBox
+      layout_properties: {grid_position: 'MIPSYL,WVXSWQ'}
+    - name: label_3
+      properties: {font_size: 16, text: Average number of rooms per household, align: right,
+        role: input-prompt}
+      type: Label
+      layout_properties: {grid_position: 'LHUFPQ,LARNOX'}
+    - name: AveRooms
+      properties: {align: center, italic: true, type: number, placeholder: AveRooms}
+      type: TextBox
+      layout_properties: {grid_position: 'LHUFPQ,BSXGTN'}
+    - name: label_4
+      properties: {text: Average number of bedrooms per household, font_size: 16,
+        align: right, role: input-prompt}
+      type: Label
+      layout_properties: {grid_position: 'IQYFAR,COFBGJ'}
+    - name: AveBedrms
+      properties: {align: center, italic: true, type: number, placeholder: AveBedrms}
+      type: TextBox
+      layout_properties: {grid_position: 'IQYFAR,MNDEIM'}
+    - name: label_5
+      properties: {font_size: 16, align: right, text: Block group population, role: input-prompt}
+      type: Label
+      layout_properties: {grid_position: 'XJHUPN,FBIDBI'}
+    - name: Population
+      properties: {align: center, italic: true, type: number, placeholder: Population}
+      type: TextBox
+      layout_properties: {grid_position: 'XJHUPN,ITLSKY'}
+    - name: label_6
+      properties: {font_size: 16, role: input-prompt, text: Average number of household members,
+        align: right}
+      type: Label
+      layout_properties: {grid_position: 'CPOLGA,VUEFSA'}
+    - name: AveOccup
+      properties: {align: center, italic: true, type: number, placeholder: AveOccup}
+      type: TextBox
+      layout_properties: {grid_position: 'CPOLGA,YETLBF'}
+    - name: label_7
+      properties: {text: Block group latitude, role: input-prompt, align: right, font_size: 16}
+      type: Label
+      layout_properties: {grid_position: 'ZAPNHG,BWMVSB'}
+    - name: Latitude
+      properties: {align: center, italic: true, type: number, placeholder: Latitude}
+      type: TextBox
+      layout_properties: {grid_position: 'ZAPNHG,ICPJUS'}
+    - name: label_8
+      properties: {role: input-prompt, align: right, font_size: 16, text: block group longitude}
+      type: Label
+      layout_properties: {grid_position: 'RCLJWD,WYHAPA'}
+    - name: Longitude
+      properties: {align: center, italic: true, type: number, placeholder: Longitude}
+      type: TextBox
+      layout_properties: {grid_position: 'RCLJWD,RAYTWD'}
+    - name: Predict
+      properties: {text: Predict, role: filled-button}
+      type: Button
+      layout_properties: {grid_position: 'SPTYDD,GUHRKW'}
+    - name: Prediction_label
+      properties: {}
+      type: Label
+      layout_properties: {grid_position: 'BCEQXO,GWEPIT'}
 - type: FlowPanel
   properties: {}
   name: navbar_links
