@@ -11,4 +11,5 @@ runtime_options: {version: 2, client_version: '3', server_version: python3-sandb
   server_spec: null}
 metadata: {title: California Housing Rate Prediction, logo_img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_California.svg/1200px-Flag_of_California.svg.png'}
 startup_form: Form1
+uplink_visible: true
 renamed: true

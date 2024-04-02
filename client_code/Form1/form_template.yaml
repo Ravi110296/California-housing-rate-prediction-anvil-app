@@ -86,8 +86,9 @@ components:
       properties: {text: Predict, role: filled-button}
       type: Button
       layout_properties: {grid_position: 'SPTYDD,GUHRKW'}
-    - name: Prediction_label
-      properties: {}
+      event_bindings: {click: Predict_click}
+    - name: Prediction
+      properties: {align: center, role: headline, visible: false}
       type: Label
       layout_properties: {grid_position: 'BCEQXO,GWEPIT'}
 - type: FlowPanel
